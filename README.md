@@ -114,7 +114,8 @@ elif infilename.endswith('vcf'):
 ### Example usage: <br>
 1. Firstly, download the DeepSATA file
 2. Secondly, prepare the following data just as the same format in DeepSATA/species/example
-3. For training a new DeepSATA model:
+3. For training a new DeepSATA model
+
 ```
 cd /DeepSATA/species/example
 # training for pig
@@ -137,8 +138,8 @@ cd /DeepSATA/species/example
 # the Case presents the interested species, here we focus on pig
 python ../../DeepSATA_workflow.py --ChrPos example_1_ChrPos.txt --TFBind example_2_TFBind.bed --Feature example_3_Feature.bed --Reference pig --MEME example_4_TF_meme.txt --Case pig --CPU 5
 ```
-**Note**: The 4_TF_meme.txt can be download from [JASPAR](https://jaspar.genereg.net)
-
+**Note**: The 4_TF_meme.txt can be download from [JASPAR](https://jaspar.genereg.net). <br>
+**Note**: The example_2_TFBind.bed and example_3_Feature.bed in DeepSATA/species/example have been compressed due to the file size limitation. <br>
 
 4. For making same-species or cross-species predictions using DeepSATA:
 ```
@@ -160,6 +161,7 @@ python ../../crossPredictDeepSATA.py --Filename example.vcf --Reference pig --ME
 python ../../crossPredictDeepSATA.py --Filename 4_example.fasta --Reference pig --MEME 4_TF_meme.txt --Case pig --CPU 5 --Flag example.fasta
 ```
 **Note**: Currently, only pig, mouse, cattle, chicken are support. More species will be supported in the next updated DeepSATA. <br>
+**Note**: Due to the file size limitation, we cannot upload the pre-trained best model for pig, mouse, cattle, and chicken, which are necessary in cross-species prediction of DeepSATA/species/data. Users can train the model by themselves following the instruction of DeepSATA/DeepSATA_workflow.py, or request these models via email: mawenlong_nwsuaf@163.com.<br>
 
 ## Ask questions
-Please use [DeepSATA/issues]([https://github.com/cma2015/DeepGS/issues](https://github.com/mawenlong2016/DeepSATA/issues)) for how to use DeepSATA and reporting bugs.
+Please use [DeepSATA/issues](https://github.com/mawenlong2016/DeepSATA/issues) for how to use DeepSATA and reporting bugs.
