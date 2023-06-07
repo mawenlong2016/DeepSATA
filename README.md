@@ -162,4 +162,4 @@ python ../../crossPredictDeepSATA.py --Filename 4_example.fasta --Reference pig 
 **Note**: Currently, only pig, mouse, cattle, chicken are support. More species will be supported in the next updated DeepSATA. <br>
 
 ## Ask questions
-Please use [DeepSATA/issues](https://github.com/cma2015/DeepGS/issues) for how to use DeepSATA and reporting bugs.
+Please use [DeepSATA/issues]([https://github.com/cma2015/DeepGS/issues](https://github.com/mawenlong2016/DeepSATA/issues)) for how to use DeepSATA and reporting bugs.
