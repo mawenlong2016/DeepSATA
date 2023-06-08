@@ -161,8 +161,8 @@ python ../../crossPredictDeepSATA.py --Filename example.vcf --Reference pig --ME
 # for Fasta file
 python ../../crossPredictDeepSATA.py --Filename 4_example.fasta --Reference pig --MEME 4_TF_meme.txt --Case pig --CPU 5 --Flag example.fasta
 ```
-**Note**: Currently, only pig, mouse, cattle, chicken are support. More species will be supported in the next updated DeepSATA. <br>
-**Note**: Due to the file size limitation, we cannot upload the pre-trained best model for pig, mouse, cattle, and chicken, which are necessary in cross-species prediction of DeepSATA/species/data. Users can train the model by themselves following the instruction of DeepSATA/DeepSATA_workflow.py, or request these models via email: mawenlong_nwsuaf@163.com.<br>
+**Note**: Currently, only **pig**, **mouse**, **cattle**, and **chicken** are support. More species will be supported in the next updated DeepSATA. <br>
+**Note**: Due to the file size limitation, we cannot upload the pre-trained best model for **pig**, **mouse**, **cattle**, and **chicken**, which are necessary in **cross-species prediction** of **DeepSATA/species/data**. Users can train the model by themselves following the instruction of **DeepSATA/DeepSATA_workflow.py**, or request these models via email: **mawenlong_nwsuaf@163.com**.<br>
 
 ## Ask questions
-Please use [DeepSATA/issues](https://github.com/mawenlong2016/DeepSATA/issues) for how to use DeepSATA and reporting bugs.
+Please use [**DeepSATA/issues**](https://github.com/mawenlong2016/DeepSATA/issues) for how to use DeepSATA and reporting bugs.
