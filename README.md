@@ -158,7 +158,7 @@ python ../../crossPredictDeepSATA.py --Filename 4_example.fasta --Reference pig 
 python ../../crossPredictDeepSATA.py --Filename 4_example.bedBin.bed --Reference pig --MEME 4_TF_meme.txt --Case mouse --CPU 5 --Flag example.bed
 # for VCF file
 python ../../crossPredictDeepSATA.py --Filename example.vcf --Reference pig --MEME 4_TF_meme.txt --Case pig --CPU 5 --Flag example.vcf
-# for Fasta file
+# for FASTA file
 python ../../crossPredictDeepSATA.py --Filename 4_example.fasta --Reference pig --MEME 4_TF_meme.txt --Case pig --CPU 5 --Flag example.fasta
 ```
 **Note**: Currently, only **pig**, **mouse**, **cattle**, and **chicken** are support. More species will be supported in the next updated DeepSATA. <br>
