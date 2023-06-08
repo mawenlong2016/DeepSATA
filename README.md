@@ -113,7 +113,7 @@ elif infilename.endswith('vcf'):
 ```
 ### Example usage: <br>
 1. Firstly, download the DeepSATA file
-2. Secondly, prepare the following data just as the same format in DeepSATA/species/example
+2. Secondly, prepare the following data just as the same format in **DeepSATA/species/example**
 3. For training a new DeepSATA model
 
 ```
@@ -138,8 +138,9 @@ cd /DeepSATA/species/example
 # the Case presents the interested species, here we focus on pig
 python ../../DeepSATA_workflow.py --ChrPos example_1_ChrPos.txt --TFBind example_2_TFBind.bed --Feature example_3_Feature.bed --Reference pig --MEME example_4_TF_meme.txt --Case pig --CPU 5
 ```
-**Note**: The 4_TF_meme.txt can be download from [JASPAR](https://jaspar.genereg.net). <br>
-**Note**: The example_2_TFBind.bed and example_3_Feature.bed in DeepSATA/species/example have been compressed due to the file size limitation. <br>
+**Note**: The **4_TF_meme.txt** can be download from [JASPAR](https://jaspar.genereg.net). <br>
+**Note**: The **example_2_TFBind.bed** and **example_3_Feature.bed** in **DeepSATA/species/example** have been compressed due to the file size limitation. <br>
+**Note**: For exemplification, we set the **early stop epoch** as 30, the **maximum training epoch** as 500. These parameters can be modified at line 174 and 191 [**/DeepSATA/code/deepsata_train/4_train.lua**](https://github.com/mawenlong2016/DeepSATA/blob/main/code/deepsata_train/4_train.lua). <br>
 
 4. For making same-species or cross-species predictions using DeepSATA:
 ```
