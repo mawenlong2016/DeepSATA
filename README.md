@@ -7,6 +7,8 @@ DeepSATA denpends on the following software environments：<br>
 2. [Python](https://www.python.org) - The python (version 2.7) is needed. <br>
 3. [Torch](http://torch.ch) - The torch (version 7) is needed. <br>
 4. GPU should be supported. <br>
+5. [BEDTools](https://bedtools.readthedocs.io/en/latest/index.html) - The bedtools (version) is needed. <br>
+6. [FIMO](http://meme.sdsc.edu) - The fimo (version 5.4.1) is needed. <br>
 ## DeepSATA usage <br>
 ### DeepSATA pipeline description: <br>
 1. The thorough step-by-step pipeline of building a DeepSATA model has been described in **DeepSATA_workflow.py**:
